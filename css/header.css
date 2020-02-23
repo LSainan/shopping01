@@ -1,0 +1,226 @@
+.layout-header {
+    /* overflow: hidden; */
+    margin-bottom: 30px;
+}
+
+.headTop_bg {
+    background-color: #0d2347;
+    height: 30px;
+    line-height: 30px;
+}
+
+.layout-header>.headTop_bg>.headTop>.left {
+    float: left;
+    color: #a1a7b6;
+}
+
+.layout-header>.headTop_bg>.headTop>.left>span>.icon-gaplogo {
+    padding: 0 14px;
+    font-size: 19px;
+    background-color: #fff;
+    color: #0d2347;
+    display: inline-block;
+    height: 30px;
+}
+
+.layout-header>.headTop_bg>.headTop>.left>span>.icon-oldnavylogo {
+    padding: 0 14px;
+    font-size: 12px;
+}
+
+.layout-header>.headTop_bg>.headTop>.right {
+    float: right;
+    color: #fff;
+    font-size: 12px;
+}
+
+.layout-header>.headTop_bg>.headTop>.right>:nth-child(1) {
+    margin-left: 26px;
+}
+
+.layout-header>.headTop_bg>.headTop>.right>:nth-child(3) {
+    margin-left: 26px;
+}
+/* scroll */
+.headerLogo {
+    overflow: hidden;
+    padding: 14px 0 20px;
+    position: relative;
+    /* background-color: pink; */
+}
+
+.headerLogo>img {
+    /* vertical-align: middle; */
+    position: absolute;
+    left: 50%;
+    max-width: 100%;
+    margin-left: -85px;
+}
+
+.headerLogo>.lRight {
+    float: right;
+}
+
+.headerLogo>.lRight>.R_login {
+    padding: 0 0 24px;
+}
+
+.headerLogo>.lRight>.R_login>span {
+    cursor: pointer;
+}
+
+.headerLogo>.lRight>.R_login>span>i {
+    font-size: 20px;
+}
+.headerLogo>.lRight>.R_login>span:hover{
+color: #3f6cb3;
+}
+.headerLogo>.lRight>.R_login>.i-bag {
+    margin-left: 32px;
+}
+.headerLogo>.lRight>.R_login>.login-dialog{
+    width: 104px;
+    background: #fff;
+    /* transition: opacity .4s; */
+    top: 30px;
+    top: -1000px;
+    left: -15px;
+    padding: 12px 0;
+    /* opacity: 0; */
+    border: 1px solid #d9d9d9;
+    display: none;
+}
+.headerLogo>.lRight>.R_search {
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+    width: 210px;
+}
+
+.headerLogo>.lRight>.R_search>input {
+    border: none;
+    display: inline-block;
+}
+.headerLogo>.lRight>.R_search>i {
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+}
+
+
+/* 导航 */
+
+.layout-header .comNav {
+    /* padding-bottom: 30px; */
+    position: relative;
+}
+.layout-header .comNav>.nav-li {
+    display: inline-block;
+}
+
+.comNav>.nav-li>span {
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 28px;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+
+.comNav>.nav-li>.nav-span:hover {
+    color: #999;
+}
+
+.comNav>.nav-li>.navHov-ul-par {
+    width: 100%;
+    height: 360px;
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 25px;
+    left: 0;
+    border-top: 1px solid #999;
+    display: none;
+}
+
+/* .layout-header>.comNav>.nav-li>.navHov-ul-par>.navHov-ul {
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 30px;
+} */
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul>li>span:nth-child(1) {
+    font-weight: 600;
+}
+
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul>li {
+    float: left;
+    min-width: 100px;
+    /* display: flex; */
+
+}
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul>li>span {
+    display: block !important;
+    text-align: left ;
+    margin-bottom: 10px;
+}
+
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul img {
+    width: 200px;
+    height: 255px;
+    display: inline-block;
+    cursor: pointer;
+}
+/* 女装开始 */
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul {
+    /* display: inline-block; */
+    overflow: hidden;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul>.ul-flex>span {
+    font-weight: 600;
+    float: left;
+}
+
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul>.ul-flex>li {
+    float: left;
+    min-width: 100px;
+    padding-top: 29px;
+    display: grid;
+    margin-left: -54px;
+    padding-right: 15px;
+}
+
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul>.ul-flex>li:nth-child(1) {}
+
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul>.ul-flex>li>span {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.comNav>.nav-li>.navHov-ul-par>.navHov-ul>img {
+    width: 200px;
+    height: 255px;
+    display: inline-block;
+}
+
+.comNav>.nav-li>.navHov-ul-par>ul>.ul-flex {
+    /* display: flex; */
+    /* padding-left: 26px; */
+    margin-left: 74px;
+    /* display: grid; */
+}
+.comNav>.nav-li>.navHov-ul-par>ul>.margin{
+    margin-left: 0px !important;
+}
+/* 女装end*/
+/* 头部固定 */
+.logoScroll{
+    position: fixed;
+    z-index: 99;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
